@@ -6,13 +6,12 @@
 
 // ignore_for_file: avoid_print
 import 'package:dart_appwrite/dart_appwrite.dart';
-import 'package:shodana_reader/env/env.dart';
-
-import '../app_constants.dart';
+import '../bin/env/env.dart';
+import '../bin/app_constants.dart';
 
 Client client = Client(endPoint: AppConstant.endpoint)
   .setProject(AppConstant.project)
-  .setKey(ScriptEnv.healthKey);
+  .setKey(Env.key);
 Health health = Health(client);
 
 Future<void> main() async {

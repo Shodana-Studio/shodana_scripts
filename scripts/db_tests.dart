@@ -2,17 +2,16 @@
 // Before running, do the following:
 // Add appwrite url, endpoint, and project id in "lib/core/res/constants.dart"
 // Add api key with permissions for collections and documents read/write in file "scripts/.env" with format:
-// DATABASE_KEY={key}
+// KEY={key}
 
 // ignore_for_file: avoid_print
 import 'package:dart_appwrite/dart_appwrite.dart';
-import 'package:shodana_reader/env/env.dart';
-
-import '../app_constants.dart';
+import '../bin/env/env.dart';
+import '../bin/app_constants.dart';
 
 Client client = Client(endPoint: AppConstant.endpoint)
   .setProject(AppConstant.project)
-  .setKey(ScriptEnv.databaseKey);
+  .setKey(Env.key);
 Database db = Database(client);
 
 Future<void> main() async {

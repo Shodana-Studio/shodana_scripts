@@ -58,7 +58,7 @@ packages:
     source: hosted
     version: "2.0.4"
   build_runner:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: build_runner
       url: "https://pub.dartlang.org"
@@ -170,7 +170,7 @@ packages:
     source: hosted
     version: "2.0.2"
   envify_generator:
-    dependency: "direct main"
+    dependency: "direct dev"
     description:
       name: envify_generator
       url: "https://pub.dartlang.org"
@@ -211,6 +211,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.0"
+  http:
+    dependency: transitive
+    description:
+      name: http
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.13.3"
   http_multi_server:
     dependency: transitive
     description:
@@ -246,6 +253,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.1.0"
+  linter:
+    dependency: "direct dev"
+    description:
+      name: linter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.10.0"
   logging:
     dependency: transitive
     description:
@@ -289,7 +303,7 @@ packages:
     source: hosted
     version: "1.8.0"
   pedantic:
-    dependency: "direct dev"
+    dependency: transitive
     description:
       name: pedantic
       url: "https://pub.dartlang.org"

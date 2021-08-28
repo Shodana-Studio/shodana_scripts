@@ -2,7 +2,6 @@
 .dart_tool/
 .packages
 .env
-env.dart
 env.g.dart
 
 # Conventional directory for build output.
