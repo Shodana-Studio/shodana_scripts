@@ -1,6 +1,6 @@
 // Run in terminal with "dart scripts/db_setup.dart"
 // Before running, do the following:
-// Add appwrite url, endpoint, and project id in "bin/app_onstants.dart"
+// Add appwrite url, endpoint, and project id in "bin/app_constants.dart"
 // Add api key with permissions for collections and documents read/write in file "scripts/.env" with format:
 // KEY={key}
 
