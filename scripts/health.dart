@@ -1,7 +1,7 @@
 // Run in terminal with "dart scripts/health.dart"
 // Before running, do the following:
 // Add appwrite url, endpoint, and project id in "bin/app_constants.dart"
-// Add api key with permissions for health read in file "scripts/.env" with format:
+// Add api key with permissions for health read in file ".env" with format:
 // HEALTH_KEY={key}
 
 // ignore_for_file: avoid_print
