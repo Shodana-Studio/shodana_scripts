@@ -211,13 +211,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.0"
-  http:
-    dependency: transitive
-    description:
-      name: http
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.13.3"
   http_multi_server:
     dependency: transitive
     description:
@@ -253,13 +246,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.1.0"
-  linter:
+  lints:
     dependency: "direct dev"
     description:
-      name: linter
+      name: lints
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.10.0"
+    version: "2.0.0"
   logging:
     dependency: transitive
     description:
@@ -429,4 +422,4 @@ packages:
     source: hosted
     version: "3.1.0"
 sdks:
-  dart: ">=2.12.0 <3.0.0"
+  dart: ">=2.17.0-206.0.dev <3.0.0"
